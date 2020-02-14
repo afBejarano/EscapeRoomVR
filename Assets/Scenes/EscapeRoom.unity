@@ -597,6 +597,49 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 17219687}
   m_Mesh: {fileID: 4300000, guid: 6ec0c875cb1c94e40afcad0a0161eb4e, type: 3}
+--- !u!1 &20316699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 20316701}
+  - component: {fileID: 20316700}
+  m_Layer: 0
+  m_Name: TimeRecorder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &20316700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20316699}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 222a082a90064da4ca2cfc26e6829a29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &20316701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 20316699}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.3393052, y: 0.54720986, z: 7.4010606}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &30215429
 GameObject:
   m_ObjectHideFlags: 0
@@ -7012,6 +7055,7 @@ MonoBehaviour:
   - {fileID: 1480833107}
   - {fileID: 1280178637}
   ListaAleatoria: 
+  grabador: {fileID: 20316700}
   listaLlena: 0
   turnoPC: 0
   turnoUsuario: 0
@@ -32543,6 +32587,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae3c05e5d4913e04183e9eaee75da251, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  grabador: {fileID: 20316700}
   gOPrefab: {fileID: 2656242038146140928, guid: 0463ac0b67f6c5c4180250f642a731bc,
     type: 3}
   xI: -2.2

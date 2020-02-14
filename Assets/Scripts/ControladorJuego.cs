@@ -10,6 +10,8 @@ public class ControladorJuego : MonoBehaviour
     public BtnPressedInteraction[] btns;
     public List<int> ListaAleatoria = new List<int>();
 
+    public TimeRecorder grabador;
+
     public bool listaLlena;
     public bool turnoPC;
     public bool turnoUsuario;
@@ -75,6 +77,7 @@ public class ControladorJuego : MonoBehaviour
         btnJugar.SetActive(false);
         botones.SetActive(false);
         premio.SetActive(true);
+        grabador.registrarTiempoActividad2();
     }
 
     IEnumerator verificarTurnoEsfera()
@@ -110,6 +113,7 @@ public class ControladorJuego : MonoBehaviour
             }
             misionRequisitoJugar.SetActive(false);
             Invoke("BtnJugar", 2.0f);
+            grabador.registrarTiempoActividad1();
         }
     }
 

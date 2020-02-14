@@ -5,13 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class VerificadorPalabras : MonoBehaviour
 {
+    public TimeRecorder grabador;
 
     private List<GameObject> bloques;
     public GameObject gOPrefab;
     public float xI;
     public float yI;
     public float zI;
-    public float espacio = 0.3f;
+    public float espacio = 0.18f;
 
     public int completada = 0;
     private string palabra;
@@ -40,6 +41,7 @@ public class VerificadorPalabras : MonoBehaviour
             destruirBloquesPalAnterior();
             empezarJuego();
             Invoke("Jugar", 2.0f);
+            grabador.registrarTiempoActividad3();
         }
     }
 
@@ -54,11 +56,11 @@ public class VerificadorPalabras : MonoBehaviour
 
     public void Jugar()
     {
-        float xtemp = xI;
+        float xtemp = xI+0.68f;
         char[] arr = palabra.ToCharArray(0, palabra.Length);
         for (int i = 0; i < arr.Length; i++)
         {
-            bloques[i] = Instantiate(gOPrefab, new Vector3((xtemp += espacio), yI, zI), Quaternion.Euler(new Vector3(0, 0, 0))) as GameObject;
+            bloques[i] = Instantiate(gOPrefab, new Vector3((xtemp += espacio), yI-.41f, zI+.35f), Quaternion.Euler(new Vector3(0, 0, 0))) as GameObject;
             //gOModelo.transform.localScale += new Vector3(3f, 3f, 3f);
             bloques[i].name = "" + arr[i];
             bloques[i].AddComponent<VerificarCaracter>();
