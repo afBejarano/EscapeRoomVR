@@ -17,7 +17,7 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/EscapeRoom-2m.unity
     guid: 2b1d153b15b1cf64dbe3ebef75dca863
   m_configObjects: {}
