@@ -116,6 +116,7 @@ public class VerificadorPalabras : MonoBehaviour
                     if(bloques[i].gameObject.GetComponent<VerificarCaracter>().completada)
                     {
                         completada++;
+                        Update();
                     }
                 }
             }       

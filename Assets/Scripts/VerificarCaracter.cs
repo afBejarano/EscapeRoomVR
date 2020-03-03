@@ -26,18 +26,21 @@ public class VerificarCaracter : MonoBehaviour
             if (!pTouched)
             {
                 pTouched = true;
-                col.gameObject.transform.SetParent(this.transform);
+                //col.gameObject.transform.SetParent(this.transform);
                 caracterCorrecto(col.name);
                 yield return new WaitForSeconds(3);    
                 pTouched = false;    
-                print("Off "+ pTouched);
             }
         }
         else
         {
             if (!(col.tag == "mano"))
             {
-                completada = false;
+                if (completada)
+                {
+                    GameObject.Find("Controlador").GetComponent<VerificadorPalabras>().completada--;
+                    completada = false;
+                }
                 AudioSource.PlayClipAtPoint(incorrecto, Vector3.zero, 1.0f);
                 this.gameObject.GetComponent<Renderer>().material.color = Color.red;
             }
@@ -49,7 +52,7 @@ public class VerificarCaracter : MonoBehaviour
         AudioSource.PlayClipAtPoint(correcto, Vector3.zero, 1.0f);
         completada = true;
         this.gameObject.GetComponent<Renderer>().material.color = Color.green;
-        CrearDuplicado(nombre);
+        //CrearDuplicado(nombre);
         GameObject.Find("Controlador").GetComponent<VerificadorPalabras>().completada++;
     }
 

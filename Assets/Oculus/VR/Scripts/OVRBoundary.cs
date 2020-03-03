@@ -228,4 +228,9 @@ public class OVRBoundary
 #endif
 		}
 	}
+
+    public object GetGeometry()
+    {
+        throw new NotImplementedException();
+    }
 }
