@@ -8,9 +8,43 @@ public class TimeRecorder : MonoBehaviour
     private readonly string sheetName = "Sheet1";
     private readonly string sheetId = "1g5pCDZYr-p8EqvGF4jrXAPyphay-gJswoMuWivNw3kk";
     float tiempoInicial = Time.timeSinceLevelLoad;
-    float actividad = -1;
+    float actividad = 0;
     float tiempoActividad = -1;
     List<string> data;
+    int extras = 0;
+    bool agarrado = false;
+    string objActual = "";
+    public void agarraObjeto(string S)
+    {
+        extras++;
+        tiempoActividad = Time.timeSinceLevelLoad - tiempoInicial;
+        objActual = S;
+        data = new List<string>()
+        {
+            hora.ToString(),
+            actividad.ToString(),
+            tiempoActividad.ToString().Replace(',','.'),
+            objActual,
+            "Agarrado"
+        };
+        GSTU_Search buscador = new GSTU_Search(sheetId, sheetName, "A2");
+        SpreadsheetManager​.Append(buscador, new ValueRange(data), null);
+    }
+    public void sueltaObjeto()
+    {
+        tiempoActividad = Time.timeSinceLevelLoad - tiempoInicial;
+        data = new List<string>()
+        {
+            hora.ToString(),
+            actividad.ToString(),
+            tiempoActividad.ToString().Replace(',','.'),
+            objActual,
+            "Soltado"
+        };
+        objActual = "";
+        GSTU_Search buscador = new GSTU_Search(sheetId, sheetName, "A2");
+        SpreadsheetManager​.Append(buscador, new ValueRange(data), null);
+    }
     public void registrarTiempoActividad1()
     {
         if (actividad != 1)
@@ -41,11 +75,25 @@ public class TimeRecorder : MonoBehaviour
     }
     private void send()
     {
+        string adhd = "Posiblemente no presenta problemas de atención";
+        if(actividad==1 && extras > 9)
+        {
+            adhd = "Posiblemente presenta problemas de atención";
+        }
+        if (actividad == 2 && extras > 3)
+        {
+            adhd = "Posiblemente presenta problemas de atención";
+        }
+        if (actividad == 3 && extras > 50)
+        {
+            adhd = "Posiblemente presenta problemas de atención";
+        }
         data = new List<string>()
         {
             hora.ToString(),
             actividad.ToString(),
-            tiempoActividad.ToString().Replace(',','.')
+            tiempoActividad.ToString().Replace(',','.'),
+            adhd
         };
         GSTU_Search buscador = new GSTU_Search(sheetId, sheetName, "A2");
         SpreadsheetManager​.Append(buscador, new ValueRange(data), null);

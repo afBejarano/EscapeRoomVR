@@ -232,6 +232,7 @@ public class OVRGrabber : MonoBehaviour
                     closestMagSq = grabbableMagSq;
                     closestGrabbable = grabbable;
                     closestGrabbableCollider = grabbableCollider;
+                    
                 }
             }
         }
