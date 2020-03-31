@@ -14,6 +14,8 @@ public class TimeRecorder : MonoBehaviour
     int extras = 0;
     bool agarrado = false;
     string objActual = "";
+    string deviceID = new AndroidJavaObject("android.os.Build").GetStatic<string>("SERIAL");
+    string ver = "v1";
     public void agarraObjeto(string S)
     {
         extras++;
@@ -25,7 +27,9 @@ public class TimeRecorder : MonoBehaviour
             actividad.ToString(),
             tiempoActividad.ToString().Replace(',','.'),
             objActual,
-            "Agarrado"
+            "Agarrado",
+            deviceID,
+            ver
         };
         GSTU_Search buscador = new GSTU_Search(sheetId, sheetName, "A2");
         SpreadsheetManager​.Append(buscador, new ValueRange(data), null);
@@ -39,7 +43,9 @@ public class TimeRecorder : MonoBehaviour
             actividad.ToString(),
             tiempoActividad.ToString().Replace(',','.'),
             objActual,
-            "Soltado"
+            "Soltado",
+            deviceID,
+            ver
         };
         objActual = "";
         GSTU_Search buscador = new GSTU_Search(sheetId, sheetName, "A2");
@@ -93,7 +99,9 @@ public class TimeRecorder : MonoBehaviour
             hora.ToString(),
             actividad.ToString(),
             tiempoActividad.ToString().Replace(',','.'),
-            adhd
+            adhd,
+            deviceID,
+            ver
         };
         GSTU_Search buscador = new GSTU_Search(sheetId, sheetName, "A2");
         SpreadsheetManager​.Append(buscador, new ValueRange(data), null);
