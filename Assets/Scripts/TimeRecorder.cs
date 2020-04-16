@@ -59,6 +59,7 @@ public class TimeRecorder : MonoBehaviour
             tiempoActividad = Time.timeSinceLevelLoad - tiempoInicial;
             Debug.Log(tiempoActividad.ToString());
             send();
+            extras = 0;
         }
     }
     public void registrarTiempoActividad2()
@@ -68,6 +69,7 @@ public class TimeRecorder : MonoBehaviour
             actividad = 2;
             tiempoActividad = Time.timeSinceLevelLoad - tiempoActividad;
             send();
+            extras = 0;
         }
     }
     public void registrarTiempoActividad3()
@@ -77,6 +79,7 @@ public class TimeRecorder : MonoBehaviour
             actividad = 3;
             tiempoActividad = Time.timeSinceLevelLoad - tiempoActividad;
             send();
+            extras = 0;
         }
     }
     private void send()

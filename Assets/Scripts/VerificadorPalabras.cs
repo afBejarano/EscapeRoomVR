@@ -70,7 +70,7 @@ public class VerificadorPalabras : MonoBehaviour
             StartCoroutine(comenzarInstruccionesPalabras());
         }
         else{
-            soundManager.PlaySound("Ins6L2");
+            soundManager.PlaySound("InsF");
             StartCoroutine(soundManager.CambiarInstruccionPantalla2("Ins3L2", 0, palabra, 0));
         } 
     }
