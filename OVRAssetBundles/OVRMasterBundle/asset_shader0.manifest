@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 2007195872
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 5930a95823d38fe3d6b115a6b2dd7293
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 677a1d6a6e8c5d2da1d9d0fadde392d8
+HashAppended: 0
+ClassTypes:
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/ToyCubeWithOutline.shader
+Dependencies: []

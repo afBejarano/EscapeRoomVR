@@ -1,0 +1,32 @@
+ManifestFileVersion: 0
+CRC: 1911284245
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 82d2c5545add8126d125dc7c27068a67
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: af57576da81d5d3ce45807ac11234de6
+HashAppended: 0
+ClassTypes:
+- Class: 74
+  Script: {instanceID: 0}
+Assets:
+- Assets/Animations/arrow/Ins1L1.anim
+- Assets/Animations/puertasAscensorCerrar.anim
+- Assets/Animations/puertasAscensor.anim
+- Assets/Animations/arrow/Ins6L1.anim
+- Assets/Animations/arrow/Ins1L2.anim
+- Assets/Animations/cerrarPuertaCuarto.anim
+- Assets/Animations/arrow/Ins5L2.anim
+- Assets/Animations/arrow/Ins3L2.anim
+- Assets/Animations/YellowBtnPress.anim
+- Assets/Animations/BlueBtnPress.anim
+- Assets/Animations/arrow/Ins9L1.anim
+- Assets/Animations/GreenBtnPress.anim
+- Assets/Animations/RedBtnPress.anim
+- Assets/Animations/arrow/Ins8L1.anim
+- Assets/Animations/abrirPuerta.anim
+- Assets/Animations/arrow/Ins3L1.anim
+- Assets/Animations/arrow/Ins2L2.anim
+Dependencies: []

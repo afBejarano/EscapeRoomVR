@@ -1,0 +1,49 @@
+ManifestFileVersion: 0
+CRC: 2621322052
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 11026b223f68a845b658823ba634f88a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5cc690cc030104e9b029e48f06c140
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 89
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Down-Y.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_01.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_01_msm.png
+- Assets/Oculus/SampleFramework/Core/DebugUI/Textures/slider_bar.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/block_wood_01_dif.png
+- Assets/Oculus/VR/Textures/handle.png
+- Assets/Models/TV/textures/texture_tv.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Up+Y.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_02.png
+- Assets/Models/TV/textures/texture_tv_normal.png
+- Assets/Oculus/SampleFramework/Core/DebugUI/Textures/translucent_01.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Right-X.png
+- Assets/Oculus/SampleFramework/Usage/StartScene/Textures/BlackCubemap.png
+- Assets/Oculus/SampleFramework/Core/DebugUI/Textures/header.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_01_nml.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Back-Z.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Left+X.png
+- Assets/Oculus/SampleFramework/Core/DebugUI/Textures/button.png
+- Assets/Oculus/SampleFramework/Usage/StartScene/Textures/Loading.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/block_wood_01_msm.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_02_msm.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Textures/room_atlas_02_emi.png
+- Assets/Oculus/SampleFramework/Core/DebugUI/Textures/slider_slider.png
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/CubeTex.png
+- Assets/Models/Elevator/panel/panel.png
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02_Front+Z.png
+- Assets/Models/TV/textures/texture_tv_spec.png
+- Assets/Oculus/SampleFramework/Core/DebugUI/Textures/separator.png
+- Assets/Oculus/SampleFramework/Core/DebugUI/Textures/dialog.png
+- Assets/Oculus/SampleFramework/Core/DebugUI/Textures/radio_off.png
+Dependencies: []

@@ -1,0 +1,16 @@
+ManifestFileVersion: 0
+CRC: 3740211896
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: e9dfc47b7f73c5196c700016c9dcad3c
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f19fbf085e00d23fbc8d6cf7b345590b
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+Assets:
+- Assets/Models/button/buttonHP_v001_spec.tif
+Dependencies: []

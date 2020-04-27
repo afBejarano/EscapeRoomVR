@@ -1,0 +1,68 @@
+ManifestFileVersion: 0
+CRC: 3174964182
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f170b06192f109e7a57338d0d99304f7
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: f881add57992e661af442a7356112ea5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+Assets:
+- Assets/Models/Alphabet/H.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Models/l_hand_skeletal_lowres.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Models/r_hand_skeletal_lowres.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_10.fbx
+- Assets/Models/Alphabet/A.fbx
+- Assets/Models/Alphabet-blocks/block-s.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_thumbs_up_anim.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/window_01.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_relax_mid_fist_anim.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_point_anim.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_generic_anim.fbx
+- Assets/Models/TV/model/TVset.FBX
+- Assets/Models/Alphabet/Z.fbx
+- Assets/Models/Alphabet-blocks/block-k.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/room_01.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_relax_mid_fist_anim.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/ball_billiard_03.fbx
+- Assets/Models/Alphabet/F.fbx
+- Assets/Models/Alphabet/R.fbx
+- Assets/Models/Alphabet/M.fbx
+- Assets/Models/Alphabet/U.fbx
+- Assets/Models/Alphabet/T.fbx
+- Assets/Models/Alphabet/I.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/block_wood_01.fbx
+- Assets/Models/Alphabet/S.fbx
+- Assets/Models/Alphabet-blocks/block-g.fbx
+- Assets/Models/Alphabet/Y.fbx
+- Assets/Models/Alphabet-blocks/block-q.fbx
+- Assets/Models/Alphabet-blocks/block-c.fbx
+- Assets/Models/Alphabet-blocks/block-i.fbx
+- Assets/Models/Alphabet-blocks/block-a.fbx
+- Assets/Models/button/button_FBX.FBX
+Dependencies:
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_mat0

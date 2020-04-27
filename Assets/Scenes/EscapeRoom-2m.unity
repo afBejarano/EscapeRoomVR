@@ -8076,7 +8076,7 @@ MonoBehaviour:
   submision0: {fileID: 774227113}
   submision1: {fileID: 738246708}
   submision2: {fileID: 641733110}
-  misionRequisitoJugar: {fileID: 0}
+  misionRequisitoJugar: {fileID: 1008368051}
   premio: {fileID: 2110300319}
   completadaSonido: 0
   jugable: 1

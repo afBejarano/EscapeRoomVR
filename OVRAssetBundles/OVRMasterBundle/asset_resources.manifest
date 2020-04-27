@@ -1,0 +1,164 @@
+ManifestFileVersion: 0
+CRC: 77498041
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 88e4176cab3fc48eeb29543a0a0b0375
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ca3968dc602b28e7384ab0d24d4b1eec
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+- Class: 109
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 7c84b370c07161d418509239739a9524, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ad074644ff568a14187a3690cfbd7534, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 70c2f484f132c044097f03d65cac3b24, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ae0cfb577de49d7498891aa8e6b729f2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3cd5ad776f921664895987a23a4fa517, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b3d881e962d099f4a8eb492ef7e9a8c0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4799cffde1fce5045a3688ba2bcb75e5, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/Sonidos/instrucciones/Ins5L1E.mp3
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_2048.png
+- Assets/Resources/RecursosTutoriales/PERRO.jpg
+- Assets/Resources/Sonidos/elevator_movingup.wav
+- Assets/Resources/RecursosTutoriales/Ins1L2.jpg
+- Assets/Resources/Sonidos/instrucciones/Ins2L2.mp3
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_256.png
+- Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_PC_SingleComponent.shader
+- Assets/Oculus/VR/Resources/OVRMRUnlitTransparent.shader
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_2048.png
+- Assets/Resources/Sonidos/instrucciones/Ins4L2.mp3
+- Assets/Resources/Sonidos/instrucciones/Ins1L1.mp3
+- Assets/Resources/RecursosTutoriales/Materials/cubo.mat
+- Assets/Oculus/VR/Resources/OVRMRChromaKey.cginc
+- Assets/Resources/Sonidos/instrucciones/Ins9L1.mp3
+- Assets/Oculus/SampleFramework/Core/Video/Resources/Multiview Stereo.shader
+- Assets/Resources/Sonidos/instrucciones/Ins5L2.mp3
+- Assets/Resources/RecursosTutoriales/Materials/com.oculus.vrshell-20191212-180547.mat
+- Assets/Resources/Sonidos/re-v.wav
+- Assets/Google Sheets to Unity/Animal Example/Resources/AnimalContainer.asset
+- Assets/Resources/ONSPSettings.asset
+- Assets/Resources/Sonidos/levator-ping.wav
+- Assets/Resources/Sonidos/instrucciones/Ins9L1E.mp3
+- Assets/Resources/Sonidos/instrucciones/Ins1L2E.mp3
+- Assets/Resources/RecursosTutoriales/RATON.jpg
+- Assets/Resources/Sonidos/instrucciones/Ins4L1E.mp3
+- Assets/Resources/RecursosTutoriales/cubo.PNG
+- Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_Loader.shader
+- Assets/Resources/Sonidos/instrucciones/Ins2L2E.mp3
+- Assets/Resources/Sonidos/instrucciones/Ins3L1.mp3
+- Assets/Resources/RecursosTutoriales/Ins2L2.jpg
+- Assets/Resources/Sonidos/instrucciones/Ins8L1E.mp3
+- Assets/Resources/Sonidos/instrucciones/Ins1L2.mp3
+- Assets/Resources/RecursosTutoriales/0.jpg
+- Assets/Oculus/VR/Resources/Cubemap Blit.shader
+- Assets/Resources/Sonidos/instrucciones/Ins6L2E.mp3
+- Assets/Resources/RecursosTutoriales/Materials/2manos.mat
+- Assets/Resources/RecursosTutoriales/2Ins.jpg
+- Assets/Oculus/VR/Resources/OVRMRUnlit.shader
+- Assets/Resources/Sonidos/do-v.wav
+- Assets/Resources/GSTU_Config.asset
+- Assets/Resources/RecursosTutoriales/4.2Ins.jpg
+- Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderSelfOccluding.shader
+- Assets/Resources/Sonidos/instrucciones/Ins7L1E.mp3
+- Assets/Resources/Sonidos/positive-beeps.wav
+- Assets/Oculus/VR/Resources/Unlit Transparent Color.shader
+- Assets/Resources/RecursosTutoriales/4Ins.jpg
+- Assets/Resources/RecursosTutoriales/CABALLO.jpg
+- Assets/Resources/Sonidos/instrucciones/Ins1L1E.mp3
+- Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBS.shader
+- Assets/Oculus/VR/Resources/OVRMRCameraFrameLit.shader
+- Assets/Resources/RecursosTutoriales/Materials/6manos.mat
+- Assets/Resources/Sonidos/instrucciones/Ins6L2.mp3
+- Assets/Resources/OculusPlatformSettings.asset
+- Assets/Resources/Sonidos/correct.wav
+- Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_CombinedMesh.shader
+- Assets/Resources/Sonidos/instrucciones/Ins8L1.mp3
+- Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_CombinedMeshExpressive.shader
+- Assets/Oculus/VR/Resources/Underlay Transparent Occluder.shader
+- Assets/Oculus/VR/Resources/Texture2D Blit.shader
+- Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_PC_SingleComponentExpressive.shader
+- Assets/Oculus/Avatar/Resources/Materials/AvatarPBRV2Simple.shader
+- Assets/Resources/Sonidos/instrucciones/Ins3L1E.mp3
+- Assets/Resources/RecursosTutoriales/Materials/5manos.mat
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_256.png
+- Assets/Resources/RecursosTutoriales/ANIMAL.jpg
+- Assets/Resources/Sonidos/instrucciones/Ins3L2.mp3
+- Assets/Resources/RecursosTutoriales/3Ins.jpg
+- Assets/Resources/RecursosTutoriales/PlataformasCubos.PNG
+- Assets/Oculus/Avatar/Resources/Materials/Expressive/Avatar_Mobile_SingleComponentExpressive.shader
+- Assets/Resources/Sonidos/instrucciones/Ins3L2E.mp3
+- Assets/Resources/Sonidos/mal.mp3
+- Assets/Oculus/VR/Resources/OVRMRCameraFrame.shader
+- Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShaderPBSV2.shader
+- Assets/Resources/Sonidos/instrucciones/InsF.mp3
+- Assets/Oculus/VR/Resources/OVRMRClipPlane.shader
+- Assets/Resources/RecursosTutoriales/Materials/4manos.mat
+- Assets/Resources/OVRBuildConfig.asset
+- Assets/Resources/Sonidos/negative-beeps.wav
+- Assets/Resources/Sonidos/me-v.wav
+- Assets/Resources/Prefabs/Alfabeto.prefab
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_diffuse_roughness_1024.png
+- Assets/Resources/RecursosTutoriales/Materials/PlataformasCubos.mat
+- Assets/Resources/Sonidos/instrucciones/Ins7L1.mp3
+- Assets/Resources/RecursosTutoriales/Materials/Ins2L2.mat
+- Assets/Oculus/Avatar/Resources/Materials/Version1.5/Avatar_Mobile_SingleComponent.shader
+- Assets/Oculus/Avatar/Resources/Materials/AvatarMaterialStateShader.cginc
+- Assets/Oculus/Avatar/Resources/Materials/Expressive/AvatarEyeLens.shader
+- Assets/Resources/Sonidos/fa-v.wav
+- Assets/Oculus/Avatar/Resources/Materials/AvatarSurfaceShader.shader
+- Assets/Resources/Sonidos/instrucciones/Ins4L1.mp3
+- Assets/Resources/Sonidos/instrucciones/Ins6L1E.mp3
+- Assets/Resources/Sonidos/instrucciones/Ins5L1.mp3
+- Assets/Resources/Sonidos/instrucciones/InsFE.mp3
+- Assets/Oculus/Avatar/Resources/FallbackTextures/fallback_normal_1024.tif
+- Assets/Resources/Sonidos/instrucciones/Ins4L2E.mp3
+- Assets/Resources/Sonidos/instrucciones/Ins5L2E.mp3
+- Assets/Oculus/VR/Resources/Underlay Impostor.shader
+- Assets/Resources/Sonidos/instrucciones/Ins6L1.mp3
+- Assets/Resources/OvrAvatarSettings.asset
+- Assets/Resources/RecursosTutoriales/GATO.jpg
+- Assets/Resources/RecursosTutoriales/1Ins.jpg
+- Assets/Resources/RecursosTutoriales/Materials/1manos.mat
+- Assets/Resources/RecursosTutoriales/Materials/3manos.mat
+Dependencies:
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_fbx0
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_fbx1
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_fbx2
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_mat0
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_prefab0

@@ -1,0 +1,27 @@
+ManifestFileVersion: 0
+CRC: 489935482
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a53d604b490097c5631a0b5ccbe4709a
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 0cc77c02dfe1496769a4948062a15474
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+Assets:
+- Assets/Models/Key/Models/key.obj
+Dependencies:
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_mat0

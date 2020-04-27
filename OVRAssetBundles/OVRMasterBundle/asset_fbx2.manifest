@@ -1,0 +1,62 @@
+ManifestFileVersion: 0
+CRC: 3389049412
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 3f1cf4501c927d5de4721d45387540ed
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: e2ce58fac05052bc651b64ba843da9b5
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+Assets:
+- Assets/Models/Alphabet-blocks/block-z.fbx
+- Assets/Models/Alphabet/K.fbx
+- Assets/Models/Alphabet-blocks/block-o.fbx
+- Assets/Models/Alphabet/W.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_pinch_anim.fbx
+- Assets/Models/Alphabet-blocks/block-x.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_ping_pong_ball_anim.fbx
+- Assets/Models/Alphabet/V.fbx
+- Assets/Models/Arrow/arrow.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_cap_touch_index_mask_anim.fbx
+- Assets/Models/Alphabet/O.fbx
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Models/light_01.fbx
+- Assets/Models/Alphabet-blocks/block-p.fbx
+- Assets/Models/Alphabet-blocks/block-u.fbx
+- Assets/Models/Alphabet-blocks/block-y.fbx
+- Assets/Models/Alphabet-blocks/block-t.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_generic_anim.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_cap_touch_thumb_mask_anim.fbx
+- Assets/Models/Alphabet-blocks/block-v.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_fist_anim.fbx
+- Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_pinch_anim.fbx
+- Assets/Models/Alphabet/X.fbx
+- Assets/Models/Alphabet/E.fbx
+- Assets/Models/Alphabet/G.fbx
+- Assets/Models/Alphabet-blocks/block-f.fbx
+- Assets/Models/Alphabet-blocks/block-b.fbx
+Dependencies:
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_mat0

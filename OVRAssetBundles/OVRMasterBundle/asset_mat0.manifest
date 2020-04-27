@@ -1,0 +1,55 @@
+ManifestFileVersion: 0
+CRC: 1071760892
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 223a9d37ad61f48d8c70621ac3348cf5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 2164263bd948184a9373784f776f453a
+HashAppended: 0
+ClassTypes:
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+Assets:
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/MAT_room_atlas_01.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Skyboxes/Sky_02/Skybox02.mat
+- Assets/Models/Elevator/New Material 1.mat
+- Assets/Materials/NaranjaP.mat
+- Assets/Materials/arrow.mat
+- Assets/Materials/VerdeP.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/GroundMaterial.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/MAT_room_atlas_02.mat
+- Assets/Materials/Black.mat
+- Assets/Models/TV/Materials/texture_tv.mat
+- Assets/Materials/Blue.mat
+- Assets/Models/Key/Models/Key_gold_mat.mat
+- Assets/Materials/Gris.mat
+- Assets/Oculus/SampleFramework/Usage/DistanceGrab/Materials/WoodBlockWithOutline.mat
+- Assets/Oculus/SampleFramework/Core/CustomHands/Materials/Hands_solid.mat
+- Assets/Materials/Green.mat
+- Assets/Models/Elevator/New Material.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/Ball10.mat
+- Assets/Models/Key/Models/Materials/pPlane3Mat.mat
+- Assets/Models/TV/model/Materials/09 - Default.mat
+- Assets/Models/Elevator/panel/Materials/panel.mat
+- Assets/Materials/Yellow.mat
+- Assets/Models/Elevator/panel/panel.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/WoodBlock.mat
+- Assets/Materials/Red.mat
+- Assets/Materials/Blanco.mat
+- Assets/Materials/RosaP.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/ToyCubeMat.mat
+- Assets/Models/button/Materials/buttonHP_v001_spec.mat
+- Assets/Oculus/SampleFramework/Usage/SharedAssets/Materials/Ball03.mat
+Dependencies:
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_png0
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_png1
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_jpg0
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_tif0
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_tga0
+- C:/Users/af.bejarano/Downloads/EscapeRoomVR-PsicoGames-master/EscapeRoomVR-PsicoGames-master/OVRAssetBundles/OVRMasterBundle/asset_shader0
