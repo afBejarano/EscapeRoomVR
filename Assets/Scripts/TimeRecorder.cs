@@ -1,16 +1,28 @@
 ﻿using GoogleSheetsToUnity;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TimeRecorder : MonoBehaviour
 {
-    readonly System.DateTime hora = System.DateTime.Now;
+    public Text textoo;
+    static readonly System.DateTime hora = System.DateTime.Now;
+    public string tiempo = hora.ToString().Substring(0,15);
     private readonly string sheetName = "Sheet1";
     private readonly string sheetId = "1g5pCDZYr-p8EqvGF4jrXAPyphay-gJswoMuWivNw3kk";
-    float tiempoInicial = Time.timeSinceLevelLoad;
+    float tiempoInicial;
     float actividad = -1;
     float tiempoActividad = -1;
     List<string> data;
+    void Start()
+    {
+        textoo.text = tiempo;
+        tiempoInicial = Time.timeSinceLevelLoad;
+    }
+    public void agarre()
+    {
+        send();
+    }
     public void registrarTiempoActividad1()
     {
         if (actividad != 1)
@@ -43,7 +55,7 @@ public class TimeRecorder : MonoBehaviour
     {
         data = new List<string>()
         {
-            hora.ToString(),
+            tiempo,
             actividad.ToString(),
             tiempoActividad.ToString().Replace(',','.')
         };
