@@ -21,6 +21,7 @@ public class TimeRecorder : MonoBehaviour
     }
     public void agarre()
     {
+        tiempoActividad = Time.timeSinceLevelLoad - tiempoInicial;
         send();
     }
     public void registrarTiempoActividad1()
