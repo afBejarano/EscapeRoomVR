@@ -11,7 +11,7 @@ public class TimeRecorder : MonoBehaviour
     private readonly string sheetName = "Sheet1";
     private readonly string sheetId = "1g5pCDZYr-p8EqvGF4jrXAPyphay-gJswoMuWivNw3kk";
     float tiempoInicial;
-    float actividad = -1;
+    string actividad = "-1";
     float tiempoActividad = -1;
     List<string> data;
     void Start()
@@ -19,16 +19,17 @@ public class TimeRecorder : MonoBehaviour
         textoo.text = tiempo;
         tiempoInicial = Time.timeSinceLevelLoad;
     }
-    public void agarre()
+    public void agarre(string s)
     {
+        actividad = s;
         tiempoActividad = Time.timeSinceLevelLoad - tiempoInicial;
         send();
     }
     public void registrarTiempoActividad1()
     {
-        if (actividad != 1)
+        if (!actividad.Equals("1"))
         {
-            actividad = 1;
+            actividad = "1";
             tiempoActividad = Time.timeSinceLevelLoad - tiempoInicial;
             Debug.Log(tiempoActividad.ToString());
             send();
@@ -36,18 +37,18 @@ public class TimeRecorder : MonoBehaviour
     }
     public void registrarTiempoActividad2()
     {
-        if (actividad != 2)
+        if (!actividad.Equals("2"))
         {
-            actividad = 2;
+            actividad = "2";
             tiempoActividad = Time.timeSinceLevelLoad - tiempoActividad;
             send();
         }
     }
     public void registrarTiempoActividad3()
     {
-        if (actividad != 3)
+        if (!actividad.Equals("3"))
         {
-            actividad = 3;
+            actividad = "3";
             tiempoActividad = Time.timeSinceLevelLoad - tiempoActividad;
             send();
         }
@@ -57,7 +58,7 @@ public class TimeRecorder : MonoBehaviour
         data = new List<string>()
         {
             tiempo,
-            actividad.ToString(),
+            actividad,
             tiempoActividad.ToString().Replace(',','.')
         };
         GSTU_Search buscador = new GSTU_Search(sheetId, sheetName, "A2");
