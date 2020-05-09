@@ -15,23 +15,23 @@ public class SoundManager : MonoBehaviour
 
     void Start()
     {
-        Ins1L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins1L1");
-        Ins2L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins2L1");
-        Ins3L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins3L1");
-        Ins4L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins4L1");
-        Ins5L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins5L1");
-        Ins6L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins6L1");
-        Ins7L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins7L1");
-        Ins8L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins8L1");
-        Ins9L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins9L1");
+        Ins1L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins1L1E");
+        Ins2L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins2L1E");
+        Ins3L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins3L1E");
+        Ins4L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins4L1E");
+        Ins5L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins5L1E");
+        Ins6L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins6L1E");
+        Ins7L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins7L1E");
+        Ins8L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins8L1E");
+        Ins9L1 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins9L1E");
 
-        Ins1L2 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins1L2");
-        Ins2L2 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins2L2");
-        Ins3L2 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins3L2");
-        Ins4L2 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins4L2");
-        Ins5L2 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins5L2");
-        Ins6L2 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins6L2");
-        InsF = Resources.Load<AudioClip>("Sonidos/instrucciones/InsF");
+        Ins1L2 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins1L2E");
+        Ins2L2 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins2L2E");
+        Ins3L2 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins3L2E");
+        Ins4L2 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins4L2E");
+        Ins5L2 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins5L2E");
+        Ins6L2 = Resources.Load<AudioClip>("Sonidos/instrucciones/Ins6L2E");
+        InsF = Resources.Load<AudioClip>("Sonidos/instrucciones/InsFE");
 
         arrow.SetActive(false);
         audioSource = GetComponent<AudioSource>();

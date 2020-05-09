@@ -7,7 +7,7 @@ public class TimeRecorder : MonoBehaviour
 {
     public Text textoo;
     static readonly System.DateTime hora = System.DateTime.Now;
-    public string tiempo = hora.ToString().Substring(0,15);
+    public string tiempo;
     private readonly string sheetName = "Sheet1";
     private readonly string sheetId = "1g5pCDZYr-p8EqvGF4jrXAPyphay-gJswoMuWivNw3kk";
     float tiempoInicial;
@@ -16,6 +16,7 @@ public class TimeRecorder : MonoBehaviour
     List<string> data;
     void Start()
     {
+        tiempo = hora.ToString("dd/MM/yyyy HH:mm");
         textoo.text = tiempo;
         tiempoInicial = Time.timeSinceLevelLoad;
     }
@@ -27,28 +28,27 @@ public class TimeRecorder : MonoBehaviour
     }
     public void registrarTiempoActividad1()
     {
-        if (!actividad.Equals("1"))
+        if (!actividad.Equals("Cube Activity End"))
         {
-            actividad = "1";
+            actividad = "Cube Activity End";
             tiempoActividad = Time.timeSinceLevelLoad - tiempoInicial;
-            Debug.Log(tiempoActividad.ToString());
             send();
         }
     }
     public void registrarTiempoActividad2()
     {
-        if (!actividad.Equals("2"))
+        if (!actividad.Equals("Simon Says End"))
         {
-            actividad = "2";
+            actividad = "Simon Says End";
             tiempoActividad = Time.timeSinceLevelLoad - tiempoActividad;
             send();
         }
     }
     public void registrarTiempoActividad3()
     {
-        if (!actividad.Equals("3"))
+        if (!actividad.Equals("Word Puzzle End"))
         {
-            actividad = "3";
+            actividad = "Word Puzzle End";
             tiempoActividad = Time.timeSinceLevelLoad - tiempoActividad;
             send();
         }

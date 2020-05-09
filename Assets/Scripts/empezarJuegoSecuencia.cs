@@ -1,10 +1,8 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class empezarJuegoSecuencia : MonoBehaviour
 {
-
     public float intensidadLuz;
     public Light Luz;
     public AudioClip sonido;

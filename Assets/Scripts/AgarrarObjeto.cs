@@ -7,6 +7,9 @@ public class AgarrarObjeto : MonoBehaviour
     public TimeRecorder recorder;
     void OnTriggerEnter(Collider col)
     {
-        recorder.agarre(col.gameObject.name);
+        if (!col.gameObject.name.Contains("Grab") && !col.gameObject.name.StartsWith("Mesa") && !col.gameObject.name.StartsWith("Ground"))
+        {
+            recorder.agarre(col.gameObject.name);
+        }
     }
 }
