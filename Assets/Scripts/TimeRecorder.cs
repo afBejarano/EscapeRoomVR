@@ -23,9 +23,12 @@ public class TimeRecorder : MonoBehaviour
     }
     public void agarre(string s)
     {
-        actividad = s;
-        tiempoActividad = Time.timeSinceLevelLoad - tiempoInicial;
-        send();
+        if (!actividad.Equals(s))
+        {
+            actividad = s;
+            tiempoActividad = Time.timeSinceLevelLoad - tiempoInicial;
+            send();
+        }
     }
     public void registrarTiempoActividad1()
     {
