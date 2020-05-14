@@ -56,7 +56,7 @@ public class VerificadorPalabras : MonoBehaviour
 
     public void Jugar()
     {
-        float xtemp = xI+0.68f;
+        float xtemp = xI - 0.68f;
         char[] arr = palabra.ToCharArray(0, palabra.Length);
         for (int i = 0; i < arr.Length; i++)
         {
@@ -68,6 +68,7 @@ public class VerificadorPalabras : MonoBehaviour
         if(primeraVez)
         {
             StartCoroutine(comenzarInstruccionesPalabras());
+            grabador.registrarInicioActividad3();
         }
         else{
             soundManager.PlaySound("InsF");
