@@ -235,6 +235,7 @@ public class ControladorJuego : MonoBehaviour
             soundManager.arrow.SetActive(false);
             tPC.SetActive(false);
             tUsuario.SetActive(false);
+            grabador.registrarInicioActividad2();
         }
        
 

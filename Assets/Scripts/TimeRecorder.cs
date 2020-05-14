@@ -19,6 +19,7 @@ public class TimeRecorder : MonoBehaviour
         tiempo = hora.ToString("dd/MM/yyyy HH:mm");
         textoo.text = tiempo;
         tiempoInicial = Time.timeSinceLevelLoad;
+        registrarInicioActividad1();
     }
     public void agarre(string s)
     {
@@ -49,6 +50,33 @@ public class TimeRecorder : MonoBehaviour
         if (!actividad.Equals("Word Puzzle End"))
         {
             actividad = "Word Puzzle End";
+            tiempoActividad = Time.timeSinceLevelLoad - tiempoActividad;
+            send();
+        }
+    }
+    public void registrarInicioActividad1()
+    {
+        if (!actividad.Equals("Cube Activity Start"))
+        {
+            actividad = "Cube Activity Start";
+            tiempoActividad = Time.timeSinceLevelLoad - tiempoInicial;
+            send();
+        }
+    }
+    public void registrarInicioActividad2()
+    {
+        if (!actividad.Equals("Simon Says Start"))
+        {
+            actividad = "Simon Says Start";
+            tiempoActividad = Time.timeSinceLevelLoad - tiempoActividad;
+            send();
+        }
+    }
+    public void registrarInicioActividad3()
+    {
+        if (!actividad.Equals("Word Puzzle Start"))
+        {
+            actividad = "Word Puzzle Start";
             tiempoActividad = Time.timeSinceLevelLoad - tiempoActividad;
             send();
         }

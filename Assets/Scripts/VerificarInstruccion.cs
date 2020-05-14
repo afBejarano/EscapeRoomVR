@@ -7,6 +7,8 @@ public class VerificarInstruccion : MonoBehaviour
     public bool ins3 = false;
     private SoundManager soundManager;
 
+    public TimeRecorder tr;
+
     public VerificarInstruccion submision1;
     public VerificarInstruccion submision2;
 
@@ -22,6 +24,7 @@ public class VerificarInstruccion : MonoBehaviour
             soundManager.PlaySound("Ins3L1");
             StartCoroutine(soundManager.CambiarInstruccionPantalla("Ins3L1", "3Ins", "", 0, 2, 0));
             ins3 = true;
+            tr.registrarInicioActividad1();
         }
     }
 }
