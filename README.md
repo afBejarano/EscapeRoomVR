@@ -11,13 +11,27 @@ It is important to note that it is for users 13 years and older.
 ![](https://raw.githubusercontent.com/VivianGomez/BottlesShooter-/master/Tutorial/demo.png)
 
 
+**Do not watch if you will do the test**
+
+
 [🎮 See video - demo!!! 🎬🎥🎮](https://youtu.be/mbAbzxoia-Y)
 
 
 ## How to test
 
+You will be guided by a voice to solve 3 puzzles in the virtual enviroment, this will take you about 10 minutes, in the end we will ask you to fill a form.
 
+If you agree to follow this test continue to this steps:
 
+// TODO Sideload
+
+// TODO OPEN
+
+// TODO GRAB NUMBER
+
+// TODO FILL THIS FORM
+
+## How to modify the test code
 
 ### Prerequisites
 
