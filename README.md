@@ -17,9 +17,9 @@ It is important to note that it is for users 13 years and older.
 
 ## How to test
 
-You will be guided by voice to solve 3 puzzles that requires to move objects in a room. This will take you about 10 minutes. We will collect anonymous data of the actions you take in the game, in the end we will ask you to fill a form, which will take you about 5 minutes. You will require a space of about 3x3 meters (or 10 x 10 ft.).
+You will be guided by voice to solve 3 puzzles that requires to move objects in a room. This will take you about 10 minutes. We will collect anonymous data of the actions you take in the game. In the end we will ask you to fill a form, which will take you about 5 minutes. You will require a space of about 3x3 meters (or 10 x 10 ft.). You can leave the test whenever you want, if you decide to do so.
 
-If you agree to follow this test continue to these steps:
+If you agree to perform this test, please follow these steps:
 
 1. Sideload the APK into the Oculus Quest:
    * Using Powershell (_You must have installed adb_):
