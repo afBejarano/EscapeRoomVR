@@ -33,7 +33,17 @@ If you agree to follow this test continue to this steps:
       You should see a successful install message like this one:
       
       ![](/Docs/ps.png)
-   *
+   * Using SideQuest:
+      
+      Open SideQuest App
+      ![](/Docs/sidequest1.png)
+      
+      Drag and drop the apk in the SideQuest app
+      ![](/Docs/sidequest2.png)
+      
+      Wait until the installation is completed
+      ![](/Docs/sidequest3.png)
+      
 2. Open the game in the Oculus: Library -> Unknown sources -> PsicoTests2x2English.
 
 3. In the VR environment, you can see a timestamp on the wall to the right. This is your ID. Please remember it or don't close the test until you have used this number for the next survey as it will be needed to analyze the data of your test.
