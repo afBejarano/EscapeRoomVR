@@ -23,13 +23,21 @@ You will be guided by voice to solve 3 puzzles in the virtual enviroment, this w
 
 If you agree to follow this test continue to this steps:
 
-// TODO Sideload
+1. Sideload the APK into the Oculus Quest:
+   * Using Powershell (_You must have installed adb_):
+      Open PowerShell in the folder where the APK is and use the following command:
+      > adb install -r .\English.apk
+      You should see a successful install message like this one:
+      ![](/Docs/ps.png)
+   *
+2. Open the game in the Oculus: Library -> Unknown sources -> PsicoTests2x2English.
 
-// TODO OPEN
+3. In the VR environment, you can see a timestamp on the wall to the right. This is your ID. Please remember it or don't close the test until you have used this number for the next survey as it will be needed to analyze the data of your test.
 
-// TODO GRAB NUMBER
 
-// TODO FILL THIS FORM
+4. After having tested the software, please fill the following Google Form. This will take you around 5 minutes and will help us understand what we did right and what we did wrong, alongside collecting some data we need for this experiment. Thank you for participating and have a great day.
+
+Google Form: [Link here](https://forms.gle/ahx28H3LDYGFm18h7)
 
 ## How to modify the test code
 
