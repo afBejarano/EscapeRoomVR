@@ -25,9 +25,13 @@ If you agree to follow this test continue to this steps:
 
 1. Sideload the APK into the Oculus Quest:
    * Using Powershell (_You must have installed adb_):
+   
       Open PowerShell in the folder where the APK is and use the following command:
+      
       > adb install -r .\English.apk
+      
       You should see a successful install message like this one:
+      
       ![](/Docs/ps.png)
    *
 2. Open the game in the Oculus: Library -> Unknown sources -> PsicoTests2x2English.
