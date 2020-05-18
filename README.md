@@ -2,17 +2,21 @@
 
 ### Description
 
-This is an application that seeks to help conduct psychological tests for children with attention problems through games. It seeks to determine the status and progress of each child, through a virtualization of traditional games, accompanied by more fun components. Thanks to the immersive environment (through VR) and the use of the "Escape Room" game type, as a motivator for children.
+This is a testbed to conduct psychological training through games. It seeks to collect data from users while the user is having fun. Thanks to the immersive environment (through VR) and the use of the "Escape Room" game type, users will be motivated to follow our test.
 
-It is important to note that it is for children / teens  from 13 to 17 years old
+
+It is important to note that it is for users 13 years and older.
 
 
 ![](https://raw.githubusercontent.com/VivianGomez/BottlesShooter-/master/Tutorial/demo.png)
 
+
 [🎮 See video - demo!!! 🎬🎥🎮](https://youtu.be/mbAbzxoia-Y)
 
 
-## How to run
+## How to test
+
+
 
 
 ### Prerequisites
