@@ -2,8 +2,7 @@
 
 ### Description
 
-This is a testbed to conduct psychological training through games. It seeks to collect data from users while the user is having fun. Thanks to the immersive environment (through VR) and the use of the "Escape Room" game type, users will be motivated to follow our test.
-
+This is a testbed to conduct psychological training through games. It seeks to collect data from users while the user is having fun, solving 3 puzzles. Thanks to an immersive environment (through VR) and the use of the "Escape Room" game type, users will be motivated to follow our test.
 
 It is important to note that it is for users 13 years and older.
 
@@ -11,17 +10,16 @@ It is important to note that it is for users 13 years and older.
 ![](https://raw.githubusercontent.com/VivianGomez/BottlesShooter-/master/Tutorial/demo.png)
 
 
-**Do not watch if you will do the test**
-
-
 [🎮 See video - demo!!! 🎬🎥🎮](https://youtu.be/mbAbzxoia-Y)
+
+**Do not watch this video if you will do the test**
 
 
 ## How to test
 
-You will be guided by voice to solve 3 puzzles in the virtual enviroment, this will take you about 10 minutes. We will collect annonymous data of the actions you take in game, in the end we will ask you to fill a form.
+You will be guided by voice to solve 3 puzzles that requires to move objects in a room. This will take you about 10 minutes. We will collect anonymous data of the actions you take in the game, in the end we will ask you to fill a form, which will take you about 5 minutes. You will require a space of about 3x3 meters (or 10 x 10 ft.).
 
-If you agree to follow this test continue to this steps:
+If you agree to follow this test continue to these steps:
 
 1. Sideload the APK into the Oculus Quest:
    * Using Powershell (_You must have installed adb_):
@@ -44,12 +42,11 @@ If you agree to follow this test continue to this steps:
       Wait until the installation is completed
       ![](/Docs/sidequest3.png)
       
-2. Open the game in the Oculus: Library -> Unknown sources -> PsicoTests2x2English.
+2. Open the game in the Oculus: Library -> Unknown sources -> PsicoTests2x2English. Please stand more or less in the middle of the room to start the game.
 
 3. In the VR environment, you can see a timestamp on the wall to the right. This is your ID. Please remember it or don't close the test until you have used this number for the next survey as it will be needed to analyze the data of your test.
 
-
-4. After having tested the software, please fill the following Google Form. This will take you around 5 minutes and will help us understand what we did right and what we did wrong, alongside collecting some data we need for this experiment. Thank you for participating and have a great day.
+4. After having tested the software, please fill the following Google Form. This will take you around 5 minutes and will help us understand what we did right and what we did wrong, alongside collecting some data we need for this experiment. Thank you for your participation and have a great day.
 
 Google Form: [Link here](https://forms.gle/ahx28H3LDYGFm18h7)
 
