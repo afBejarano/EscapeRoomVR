@@ -19,7 +19,7 @@ It is important to note that it is for users 13 years and older.
 
 ## How to test
 
-You will be guided by a voice to solve 3 puzzles in the virtual enviroment, this will take you about 10 minutes, in the end we will ask you to fill a form.
+You will be guided by voice to solve 3 puzzles in the virtual enviroment, this will take you about 10 minutes. We will collect annonymous data of the actions you take in game, in the end we will ask you to fill a form.
 
 If you agree to follow this test continue to this steps:
 
