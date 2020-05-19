@@ -42,7 +42,7 @@ If you agree to perform this test, please follow these steps:
       Wait until the installation is completed
       ![](/Docs/sidequest3.png)
       
-2. Open the game in the Oculus: Library -> Unknown sources -> PsicoTests2x2English. Please stand more or less in the middle of the room to start the game.
+2. Open the game in the Oculus: Library -> Unknown sources -> EscapeRoomEnglish. Please stand more or less in the middle of the room to start the game.
 
 3. In the VR environment, you can see a timestamp on the wall to the right. This is your ID. Please remember it or don't close the test until you have used this number for the next survey as it will be needed to analyze the data of your test.
 
