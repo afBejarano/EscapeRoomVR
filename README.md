@@ -10,7 +10,7 @@ It is important to note that it is for users 13 years and older.
 ![](https://raw.githubusercontent.com/VivianGomez/BottlesShooter-/master/Tutorial/demo.png)
 
 
-[🎮 See video - demo!!! 🎬🎥🎮](https://youtu.be/mbAbzxoia-Y)
+[🎮 See video - demo!!! 🎬🎥🎮](https://youtu.be/hTaPmFHje3M)
 
 **Do not watch this video if you will do the test**
 
